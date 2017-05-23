@@ -1,0 +1,20 @@
+// webpack example for authoring libs
+module.exports = {
+  ...
+  output: {
+    ...
+    path: path.resolve(__dirname, 'dist'),
+    filename: 'myLibrary.js',
+    library: 'myLibrary',
+    libraryTarget: 'umd' // can use other module definitions like amd, commonjs etc.
+  },
+  externals: { // deps whose control is given to the consumer
+    'lodash': {
+      commonjs: 'lodash',
+      commonjs2: 'lodash',
+      amd: 'lodash',
+      root: '_'
+    }
+  }
+  ...
+}; 
