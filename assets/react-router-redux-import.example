@@ -1,0 +1,2 @@
+// usage spec with named imports
+import { push, routerReducer } from 'react-router-redux'

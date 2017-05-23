@@ -1,0 +1,10 @@
+src
+ |__ actions.js
+ |
+ |__ index.js
+ |
+ |__ middleware.js
+ |
+ |__ reducer.js
+ |
+ |__ sync.js
