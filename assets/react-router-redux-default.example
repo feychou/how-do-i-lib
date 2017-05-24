@@ -1,0 +1,3 @@
+// usage spec with default imports
+import routerMiddleware from 'react-router-redux/lib/middleware';
+import whateverMiddleware from 'react-router-redux/lib/middleware';
