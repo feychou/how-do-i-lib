@@ -1,3 +1,4 @@
+// react-router-redux index.js
 export syncHistoryWithStore from './sync'
 export { LOCATION_CHANGE, routerReducer } from './reducer'
 export {
