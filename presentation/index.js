@@ -190,7 +190,7 @@ export default class Presentation extends React.Component {
           </List>
           <List textColor="tertiary" style={{listStylePosition:"outside"}}>
             <ListItem style={{fontSize:"2rem"}}>Impossible to install with github</ListItem>
-            <ListItem style={{fontSize:"2rem"}}>Some tools expect one package.json to be in the folder root</ListItem>
+            <ListItem style={{fontSize:"2rem"}}>Some tools expect one single package.json to be in the root folder (Greenkeeper etc.)</ListItem>
           </List>
         </Slide>
 
