@@ -123,9 +123,9 @@ export default class Presentation extends React.Component {
           <List style={{listStylePosition:"outside"}}>
             <ListItem>Complex libraries</ListItem>
             <ListItem>Lib consisting of multiple files</ListItem>
+            <ListItem>Library as a dependency in another (webpack) bundle</ListItem>
             <ListItem>Usage spec to be defined</ListItem>
             <ListItem>Pkg manager installation (yarn, npm)</ListItem>
-            <ListItem>Library as a dependency in another (webpack) bundle</ListItem>
           </List>
         </Slide>
 
@@ -209,7 +209,7 @@ export default class Presentation extends React.Component {
           </List>
           <List textColor="tertiary" style={{listStylePosition:"outside"}}>
             <ListItem style={{fontSize:"2rem"}}>Impossible to install with github</ListItem>
-            <ListItem style={{fontSize:"2rem"}}>Some tools expect one single package.json to be in the root folder (Greenkeeper etc.)</ListItem>
+            <ListItem style={{fontSize:"2rem"}}>Some tools expect one single package to be in the root folder (Greenkeeper etc.)</ListItem>
           </List>
         </Slide>
 

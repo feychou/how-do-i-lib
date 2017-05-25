@@ -1,2 +1,3 @@
 // usage spec with named imports
-import { push, routerReducer } from 'react-router-redux'
+import { push, routerReducer } from 'react-router-redux';
+import { push as myPush, routerReducer as myRouterReducer } from 'react-router-redux';
