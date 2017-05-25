@@ -3,6 +3,7 @@ import React from "react";
 
 // Import Spectacle Core tags
 import {
+  Appear,
   BlockQuote,
   CodePane,
   Deck,
@@ -62,10 +63,18 @@ export default class Presentation extends React.Component {
         <Slide transition={["fade"]} bgColor="secondary" textColor="tertiary">
           <Heading size={3} textColor="primary" caps>Why?</Heading>
           <List style={{listStylePosition:"outside"}}>
-            <ListItem>Disregarded topic</ListItem>
-            <ListItem>Partial information available</ListItem>
-            <ListItem>Open source relevance</ListItem>
-            <ListItem>Technical benefits (better codebases)</ListItem>
+            <Appear>
+              <ListItem>Disregarded topic</ListItem>
+            </Appear>
+            <Appear>
+              <ListItem>Partial information available</ListItem>
+            </Appear>
+            <Appear>            
+              <ListItem>Open source relevance</ListItem>
+            </Appear>
+            <Appear>
+              <ListItem>Technical benefits (better codebases)</ListItem>
+            </Appear>
           </List>
           <img
             style={{position: "absolute", top:"0", left:"620px"}}
@@ -76,9 +85,15 @@ export default class Presentation extends React.Component {
           <Heading size={3} textColor="secondary" caps>Where to start?</Heading>
           <img style={{float:'right'}} src="https://scontent-vie1-1.xx.fbcdn.net/v/t39.1997-6/p128x128/13995354_1762414107375270_392985100_n.png?oh=37c9f7a948e4a91888c220e13a321508&oe=599E40FD" />
           <List style={{listStylePosition:"outside"}}>
-            <ListItem>Scaffolder?</ListItem>
-            <ListItem>With great powers...</ListItem>
-            <ListItem>Understand how to distribute it</ListItem>
+            <Appear>
+              <ListItem>Scaffolder?</ListItem>
+            </Appear>            
+            <Appear>
+              <ListItem>With great powers...</ListItem>
+            </Appear>
+            <Appear>            
+              <ListItem>Understand how to distribute it</ListItem>
+            </Appear>          
           </List>
         </Slide>
 
@@ -149,7 +164,9 @@ export default class Presentation extends React.Component {
             style={{margin:"20px auto", fontSize:"20px", display:"inline-block"}}
             lang="javascript"
             source={require("raw-loader!../assets/react-router-redux-middleware.example")} />
-          <Text size={5} fit textColor="tertiary">No more redundant code in the build with tree-shaking in webpack2!</Text>
+          <Appear>
+            <Text size={5} fit textColor="tertiary">No more redundant code in the build with tree-shaking in webpack2!</Text>
+          </Appear>
         </Slide>
 
         <Slide transition={["fade"]} bgColor="secondary" textColor="tertiary">
@@ -169,7 +186,9 @@ export default class Presentation extends React.Component {
             <ListItem>CSS modules? Overhead for the consumer</ListItem>
             <ListItem>Use whatever prepocessor you like, but distribute compiled files</ListItem>
           </List>
-          <img src="https://scontent-frx5-1.xx.fbcdn.net/v/t39.1997-6/p128x128/851580_387545598037991_1255650947_n.png?oh=038c83d17e5c1a1c5cc5803802cca404&oe=59BE027F"/>
+          <Appear>
+            <img src="https://scontent-frx5-1.xx.fbcdn.net/v/t39.1997-6/p128x128/851580_387545598037991_1255650947_n.png?oh=038c83d17e5c1a1c5cc5803802cca404&oe=59BE027F"/>
+          </Appear>
         </Slide>
 
         <Slide transition={["fade"]} bgColor="tertiary">
