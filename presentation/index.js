@@ -241,7 +241,10 @@ export default class Presentation extends React.Component {
             href="http://jakewiesler.com/tree-shaking-es6-modules-in-webpack-2/">Tree-shaking ES6 modules in webpack2</a><br />
           <a
             style={{color:"#edeeef", textDecoration:"none", cursor:"pointer", marginBottom:"10px"}}
-            target="__blank"href="https://stackoverflow.com/questions/36795819/when-should-i-use-curly-braces-for-es6-import/36796281#36796281">Named vs default imports</a>
+            target="__blank"href="https://stackoverflow.com/questions/36795819/when-should-i-use-curly-braces-for-es6-import/36796281#36796281">Named vs default imports</a><br />
+          <a
+            style={{color:"#edeeef", textDecoration:"none", cursor:"pointer", marginBottom:"10px"}}
+            target="__blank"href="https://www.kochan.io/javascript/how-to-write-a-good-npm-module.html">How to write a good npm module</a>
         </Slide>
       </Deck>
     );
