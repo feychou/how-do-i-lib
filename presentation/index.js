@@ -57,7 +57,7 @@ export default class Presentation extends React.Component {
           <Heading size={3} textColor="secondary">FOR EVERYONE!</Heading>
           <Text size={6} textColor="primary">People who have never done it!</Text>
           <Text size={6} textColor="primary">People who did it and want to be reminded why they hated it!</Text>
-          <img src="http://www.stickermotions.com/wp-content/uploads/2015/04/88831530358093871666.png" />
+          <img src="https://scontent-frx5-1.xx.fbcdn.net/v/t39.1997-6/p128x128/10574700_1530358097204999_928517376_n.png?oh=599cb950898a8a076dc2dbca98bc6e8b&oe=59A781BF" />
         </Slide>
 
         <Slide transition={["fade"]} bgColor="secondary" textColor="tertiary">
