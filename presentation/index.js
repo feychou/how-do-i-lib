@@ -178,6 +178,9 @@ export default class Presentation extends React.Component {
             style={{margin:"20px auto", fontSize:"20px", display:"inline-block"}}
             lang="javascript"
             source={require("raw-loader!../assets/react-router-redux-package.example")} />
+          <Appear>
+            <Text size={5} fit textColor="tertiary">Use the field "module" to point at your es6 src tree to enable three-shaking for a host that uses Webpack2!</Text>
+          </Appear>
         </Slide>
 
         <Slide transition={["fade"]} bgColor="primary" textColor="quartenary">
@@ -185,6 +188,7 @@ export default class Presentation extends React.Component {
           <List style={{listStylePosition:"outside"}}>
             <ListItem>CSS modules? Overhead for the consumer</ListItem>
             <ListItem>Use whatever prepocessor you like, but distribute compiled files</ListItem>
+            <ListItem>Experiment with CSSinJS - your style hosting language becomes JS</ListItem>
           </List>
           <Appear>
             <img src="https://scontent-frx5-1.xx.fbcdn.net/v/t39.1997-6/p128x128/851580_387545598037991_1255650947_n.png?oh=038c83d17e5c1a1c5cc5803802cca404&oe=59BE027F"/>
@@ -195,8 +199,9 @@ export default class Presentation extends React.Component {
           <Heading size={3} textColor="secondary">WHERE DO I PUT IT?</Heading>
           <List style={{listStylePosition:"outside"}}>
             <ListItem>Github (dist in repo)</ListItem>
-            <ListItem>Publish on NPM (available at https://unpkg.com/package@version/file)</ListItem>
+            <ListItem>Publish on NPM (also available at https://unpkg.com/package@version/file)</ListItem>
             <ListItem>Any CDN (for bundles)</ListItem>
+            <ListItem>Private npm repository server (sinopia)</ListItem>
           </List>
         </Slide>
 
